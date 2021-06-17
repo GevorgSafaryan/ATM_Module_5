@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="78" result="Failed" total="78" passed="59" failed="19" inconclusive="0" skipped="0" asserts="64" engine-version="3.12.0.0" clr-version="4.0.30319.42000" start-time="2021-06-15 11:46:51Z" end-time="2021-06-15 11:46:52Z" duration="0.835895">
+  <command-line><![CDATA[nunit3-console.exe  D:\ATM_Module_5\NunitProject\bin\Debug\NunitProject.dll --result=D:\\ATM_Module_5\\TestResults\\NUnitResults.xml]]></command-line>
+  <test-suite type="Assembly" id="1-1105" name="NunitProject.dll" fullname="D:\ATM_Module_5\NunitProject\bin\Debug\NunitProject.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9597424Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.160181" total="78" passed="59" failed="19" warnings="0" inconclusive="0" skipped="0" asserts="64">
+    <environment framework-version="3.13.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19041.0" platform="Win32NT" cwd="D:\ATM_Module_5\packages\NUnit.ConsoleRunner.3.12.0\tools" machine-name="EPAMYERW00D5" user="Gevorg_Safaryan" user-domain="MOSCOW" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\ATM_Module_5\packages\NUnit.ConsoleRunner.3.12.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="TargetRuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="17656" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="1-1106" name="NunitProject" fullname="NunitProject" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9717121Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.147793" total="78" passed="59" failed="19" warnings="0" inconclusive="0" skipped="0" asserts="64">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1-1107" name="TestClasses" fullname="NunitProject.TestClasses" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9727094Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.147482" total="78" passed="59" failed="19" warnings="0" inconclusive="0" skipped="0" asserts="64">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestFixture" id="1-1051" name="TestDevideMethod" fullname="NunitProject.TestClasses.TestDevideMethod" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" testcasecount="10" result="Passed" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.0756090Z" duration="0.099617" total="10" passed="10" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="10">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1063" name="TestDevideMethodForDouble" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0726901Z" duration="0.086893" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <test-case id="1-1058" name="TestDevideMethodForDouble(21.6745d,3.35d,6.47d)" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble(21.6745d,3.35d,6.47d)" methodname="TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="1079140492" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0676300Z" duration="0.081920" asserts="1" />
+            <test-case id="1-1059" name="TestDevideMethodForDouble(-14.4d,-3.2d,4.5d)" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble(-14.4d,-3.2d,4.5d)" methodname="TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="71139285" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000146" asserts="1" />
+            <test-case id="1-1060" name="TestDevideMethodForDouble(14.4d,-3.2d,-4.5d)" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble(14.4d,-3.2d,-4.5d)" methodname="TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="1016690121" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000065" asserts="1" />
+            <test-case id="1-1061" name="TestDevideMethodForDouble(0.0d,-3.2d,0.0d)" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble(0.0d,-3.2d,0.0d)" methodname="TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="2038673465" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000052" asserts="1" />
+            <test-case id="1-1062" name="TestDevideMethodForDouble(12.32d,0,double.PositiveInfinity)" fullname="NunitProject.TestClasses.TestDevideMethod.TestDevideMethodForDouble(12.32d,0,double.PositiveInfinity)" methodname="TestDevideMethodForDouble" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="108269004" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000044" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1057" name="TestdevideMethodForInteger" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" testcasecount="5" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000596" total="5" passed="5" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="5">
+            <test-case id="1-1052" name="TestdevideMethodForInteger(10,2,5)" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger(10,2,5)" methodname="TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="1569479859" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000242" asserts="1" />
+            <test-case id="1-1053" name="TestdevideMethodForInteger(35,-7,-5)" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger(35,-7,-5)" methodname="TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="470640886" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000067" asserts="1" />
+            <test-case id="1-1054" name="TestdevideMethodForInteger(-20,-2,10)" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger(-20,-2,10)" methodname="TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="2008766167" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000067" asserts="1" />
+            <test-case id="1-1055" name="TestdevideMethodForInteger(0,-2,0)" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger(0,-2,0)" methodname="TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="1883830446" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000074" asserts="1" />
+            <test-case id="1-1056" name="TestdevideMethodForInteger(15,0,double.PositiveInfinity)" fullname="NunitProject.TestClasses.TestDevideMethod.TestdevideMethodForInteger(15,0,double.PositiveInfinity)" methodname="TestdevideMethodForInteger" classname="NunitProject.TestClasses.TestDevideMethod" runstate="Runnable" seed="1548832264" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000061" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1035" name="TestCosMethod" fullname="NunitProject.TestClasses.TestCosMethod" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" testcasecount="12" result="Passed" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.0757800Z" duration="0.099955" total="12" passed="12" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="1-1045" name="TestCosMethodForDouble" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForDouble" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0726901Z" duration="0.087354" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1041" name="TestCosMethodForDouble(0,1)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForDouble(0,1)" methodname="TestCosMethodForDouble" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="1320917493" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0676300Z" duration="0.082285" asserts="1" />
+            <test-case id="1-1042" name="TestCosMethodForDouble(60,0.5d)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForDouble(60,0.5d)" methodname="TestCosMethodForDouble" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="55139730" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000159" asserts="1" />
+            <test-case id="1-1043" name="TestCosMethodForDouble(90,0)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForDouble(90,0)" methodname="TestCosMethodForDouble" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="448178254" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000056" asserts="1" />
+            <test-case id="1-1044" name="TestCosMethodForDouble(-90,0)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForDouble(-90,0)" methodname="TestCosMethodForDouble" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="105691148" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000054" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1040" name="TestCosMethodForInteger" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForInteger" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000501" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1036" name="TestCosMethodForInteger(0,1)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForInteger(0,1)" methodname="TestCosMethodForInteger" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="223959073" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000251" asserts="1" />
+            <test-case id="1-1037" name="TestCosMethodForInteger(60,0.5d)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForInteger(60,0.5d)" methodname="TestCosMethodForInteger" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="802224452" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000058" asserts="1" />
+            <test-case id="1-1038" name="TestCosMethodForInteger(-60,0.5d)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForInteger(-60,0.5d)" methodname="TestCosMethodForInteger" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="131470946" result="Passed" start-time="2021-06-15T11:46:52.0746115Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000063" asserts="1" />
+            <test-case id="1-1039" name="TestCosMethodForInteger(90,0)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForInteger(90,0)" methodname="TestCosMethodForInteger" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="1132799270" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000064" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1050" name="TestCosMethodForString" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForString" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000457" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1046" name="TestCosMethodForString(&quot;0&quot;,1)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForString(&quot;0&quot;,1)" methodname="TestCosMethodForString" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="398829151" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000215" asserts="1" />
+            <test-case id="1-1047" name="TestCosMethodForString(&quot;1.05&quot;,0.5d)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForString(&quot;1.05&quot;,0.5d)" methodname="TestCosMethodForString" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="48847810" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000063" asserts="1" />
+            <test-case id="1-1048" name="TestCosMethodForString(&quot; 1.57&quot;,0)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForString(&quot; 1.57&quot;,0)" methodname="TestCosMethodForString" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="406021193" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000064" asserts="1" />
+            <test-case id="1-1049" name="TestCosMethodForString(&quot;-1.57 &quot;,0)" fullname="NunitProject.TestClasses.TestCosMethod.TestCosMethodForString(&quot;-1.57 &quot;,0)" methodname="TestCosMethodForString" classname="NunitProject.TestClasses.TestCosMethod" runstate="Runnable" seed="1124187227" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000057" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1064" name="TestIsNegativeMethod" fullname="NunitProject.TestClasses.TestIsNegativeMethod" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.0915659Z" duration="0.115575" total="14" passed="13" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="13">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1076" name="TestIsNegativeMethodForDecimal" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDecimal" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0726901Z" duration="0.087352" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <test-case id="1-1073" name="TestIsNegativeMethodForDecimal(3.36598d,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDecimal(3.36598d,False)" methodname="TestIsNegativeMethodForDecimal" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1691032594" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0686273Z" duration="0.083113" asserts="1" />
+            <test-case id="1-1074" name="TestIsNegativeMethodForDecimal(-5456987,True)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDecimal(-5456987,True)" methodname="TestIsNegativeMethodForDecimal" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1424628777" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000169" asserts="1" />
+            <test-case id="1-1075" name="TestIsNegativeMethodForDecimal(10.336521d,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDecimal(10.336521d,False)" methodname="TestIsNegativeMethodForDecimal" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="2089600754" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000068" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1072" name="TestIsNegativeMethodForDouble" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDouble" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000443" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <test-case id="1-1069" name="TestIsNegativeMethodForDouble(3.5d,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDouble(3.5d,False)" methodname="TestIsNegativeMethodForDouble" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1635178462" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000259" asserts="1" />
+            <test-case id="1-1070" name="TestIsNegativeMethodForDouble(-5.65d,True)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDouble(-5.65d,True)" methodname="TestIsNegativeMethodForDouble" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="535023383" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000072" asserts="1" />
+            <test-case id="1-1071" name="TestIsNegativeMethodForDouble(10.7d,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForDouble(10.7d,False)" methodname="TestIsNegativeMethodForDouble" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1365273520" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000060" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1068" name="TestIsNegativeMethodForInteger" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForInteger" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000416" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <test-case id="1-1065" name="TestIsNegativeMethodForInteger(3,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForInteger(3,False)" methodname="TestIsNegativeMethodForInteger" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1085485267" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000220" asserts="1" />
+            <test-case id="1-1066" name="TestIsNegativeMethodForInteger(-5,True)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForInteger(-5,True)" methodname="TestIsNegativeMethodForInteger" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="343886021" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000071" asserts="1" />
+            <test-case id="1-1067" name="TestIsNegativeMethodForInteger(10,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForInteger(10,False)" methodname="TestIsNegativeMethodForInteger" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1987605102" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000072" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1082" name="TestIsNegativeMethodForString" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.016431" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1077" name="TestIsNegativeMethodForString(&quot;3&quot;,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(&quot;3&quot;,False)" methodname="TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="402022807" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000211" asserts="1" />
+            <test-case id="1-1078" name="TestIsNegativeMethodForString(&quot;-5&quot;,True)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(&quot;-5&quot;,True)" methodname="TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1648656998" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000070" asserts="1" />
+            <test-case id="1-1079" name="TestIsNegativeMethodForString(&quot;-(-10)&quot;,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(&quot;-(-10)&quot;,False)" methodname="TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1088084496" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.015804" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.isNegative(Object a)
+   at NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(String input, Boolean expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestIsNegativeMethod.cs:line 43]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1080" name="TestIsNegativeMethodForString(&quot;-10 &quot;,True)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(&quot;-10 &quot;,True)" methodname="TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="425482069" result="Passed" start-time="2021-06-15T11:46:52.0905861Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.000107" asserts="1" />
+            <test-case id="1-1081" name="TestIsNegativeMethodForString(&quot; 10&quot;,False)" fullname="NunitProject.TestClasses.TestIsNegativeMethod.TestIsNegativeMethodForString(&quot; 10&quot;,False)" methodname="TestIsNegativeMethodForString" classname="NunitProject.TestClasses.TestIsNegativeMethod" runstate="Runnable" seed="1440229792" result="Passed" start-time="2021-06-15T11:46:52.0905861Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.000075" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1083" name="TestIsPositiveMethod" fullname="NunitProject.TestClasses.TestIsPositiveMethod" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" testcasecount="17" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.0916137Z" duration="0.116230" total="17" passed="15" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="15">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1098" name="TestIsPositiveMethodForDecimal" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDecimal" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0726901Z" duration="0.087463" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1094" name="TestIsPositiveMethodForDecimal(3.36598d,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDecimal(3.36598d,True)" methodname="TestIsPositiveMethodForDecimal" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="837177533" result="Passed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0690728Z" duration="0.083189" asserts="1" />
+            <test-case id="1-1095" name="TestIsPositiveMethodForDecimal(-5456987,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDecimal(-5456987,False)" methodname="TestIsPositiveMethodForDecimal" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="2144871799" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000167" asserts="1" />
+            <test-case id="1-1096" name="TestIsPositiveMethodForDecimal(10.336521d,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDecimal(10.336521d,True)" methodname="TestIsPositiveMethodForDecimal" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="2098595491" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000085" asserts="1" />
+            <test-case id="1-1097" name="TestIsPositiveMethodForDecimal(-10.336521d,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDecimal(-10.336521d,False)" methodname="TestIsPositiveMethodForDecimal" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="241716849" result="Passed" start-time="2021-06-15T11:46:52.0706220Z" end-time="2021-06-15T11:46:52.0706220Z" duration="0.000058" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1093" name="TestIsPositiveMethodForDouble" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDouble" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000553" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1089" name="TestIsPositiveMethodForDouble(3.5d,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDouble(3.5d,True)" methodname="TestIsPositiveMethodForDouble" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="706404833" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000271" asserts="1" />
+            <test-case id="1-1090" name="TestIsPositiveMethodForDouble(-5.65d,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDouble(-5.65d,False)" methodname="TestIsPositiveMethodForDouble" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="202119632" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0736142Z" duration="0.000069" asserts="1" />
+            <test-case id="1-1091" name="TestIsPositiveMethodForDouble(10.7d,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDouble(10.7d,True)" methodname="TestIsPositiveMethodForDouble" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="291452127" result="Passed" start-time="2021-06-15T11:46:52.0736142Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000065" asserts="1" />
+            <test-case id="1-1092" name="TestIsPositiveMethodForDouble(-10.7d,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForDouble(-10.7d,False)" methodname="TestIsPositiveMethodForDouble" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="795541293" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000065" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1088" name="TestIsPositiveMethodForInteger" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForInteger" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000356" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <test-case id="1-1084" name="TestIsPositiveMethodForInteger(3,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForInteger(3,True)" methodname="TestIsPositiveMethodForInteger" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1929250002" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000185" asserts="1" />
+            <test-case id="1-1085" name="TestIsPositiveMethodForInteger(-5,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForInteger(-5,False)" methodname="TestIsPositiveMethodForInteger" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="42417513" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000041" asserts="1" />
+            <test-case id="1-1086" name="TestIsPositiveMethodForInteger(10,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForInteger(10,True)" methodname="TestIsPositiveMethodForInteger" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1953838032" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000044" asserts="1" />
+            <test-case id="1-1087" name="TestIsPositiveMethodForInteger(-10,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForInteger(-10,False)" methodname="TestIsPositiveMethodForInteger" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1463435704" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000042" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1104" name="TestIsPositiveMethodForString" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0916137Z" duration="0.017089" total="5" passed="3" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1099" name="TestIsPositiveMethodForString(&quot;3&quot;,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(&quot;3&quot;,True)" methodname="TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1816004747" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000156" asserts="1" />
+            <test-case id="1-1100" name="TestIsPositiveMethodForString(&quot;-5&quot;,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(&quot;-5&quot;,False)" methodname="TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1795639088" result="Passed" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0746396Z" duration="0.000053" asserts="1" />
+            <test-case id="1-1101" name="TestIsPositiveMethodForString(&quot;-(-10)&quot;,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(&quot;-(-10)&quot;,True)" methodname="TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="2007873103" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0746396Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.015820" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.isPositive(Object a)
+   at NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(String input, Boolean expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestIsPositiveMethod.cs:line 46]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1102" name="TestIsPositiveMethodForString(&quot; 10)&quot;,True)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(&quot; 10)&quot;,True)" methodname="TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="622350331" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0905861Z" end-time="2021-06-15T11:46:52.0916137Z" duration="0.000815" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.isPositive(Object a)
+   at NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(String input, Boolean expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestIsPositiveMethod.cs:line 46]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1103" name="TestIsPositiveMethodForString(&quot;-10 &quot;,False)" fullname="NunitProject.TestClasses.TestIsPositiveMethod.TestIsPositiveMethodForString(&quot;-10 &quot;,False)" methodname="TestIsPositiveMethodForString" classname="NunitProject.TestClasses.TestIsPositiveMethod" runstate="Runnable" seed="1892364801" result="Passed" start-time="2021-06-15T11:46:52.0916137Z" end-time="2021-06-15T11:46:52.0916137Z" duration="0.000055" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1017" name="TestAddMethod" fullname="NunitProject.TestClasses.TestAddMethod" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.0975718Z" duration="0.122148" total="13" passed="3" failed="10" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1029" name="TestAddMethodForDecimal" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.107021" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1026" name="TestAddMethodForDecimal(205.3265d,65.6985d,271.0223d)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(205.3265d,65.6985d,271.0223d)" methodname="TestAddMethodForDecimal" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="847061846" result="Failed" label="Error" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.0905861Z" duration="0.105166" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(Decimal firstAddendum, Decimal secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 32]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1027" name="TestAddMethodForDecimal(-21.36521d,47.26598d,25.90077d)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(-21.36521d,47.26598d,25.90077d)" methodname="TestAddMethodForDecimal" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="1055917139" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0905861Z" end-time="2021-06-15T11:46:52.0916137Z" duration="0.000666" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(Decimal firstAddendum, Decimal secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 32]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1028" name="TestAddMethodForDecimal(-100.0003d,-90.32186d,-190.32216d)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(-100.0003d,-90.32186d,-190.32216d)" methodname="TestAddMethodForDecimal" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="400282465" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0916137Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000502" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForDecimal(Decimal firstAddendum, Decimal secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 32]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1025" name="TestAddMethodForDouble" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDouble" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" testcasecount="3" result="Passed" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000226" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <test-case id="1-1022" name="TestAddMethodForDouble(10.45d,15.55d,26)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDouble(10.45d,15.55d,26)" methodname="TestAddMethodForDouble" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="1196028926" result="Passed" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000131" asserts="1" />
+            <test-case id="1-1023" name="TestAddMethodForDouble(-100.0d,53.01d,-46.99d)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDouble(-100.0d,53.01d,-46.99d)" methodname="TestAddMethodForDouble" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="2003527455" result="Passed" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000033" asserts="1" />
+            <test-case id="1-1024" name="TestAddMethodForDouble(-1001.03d,-58.44d,-1059.47d)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForDouble(-1001.03d,-58.44d,-1059.47d)" methodname="TestAddMethodForDouble" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="402378829" result="Passed" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000027" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1021" name="TestAddMethodForInteger" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0945584Z" duration="0.001799" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1018" name="TestAddMethodForInteger(20,45,65)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(20,45,65)" methodname="TestAddMethodForInteger" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="499933634" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0925633Z" duration="0.000624" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(Int32 firstAddendum, Int32 secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 14]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1019" name="TestAddMethodForInteger(-27,-50,-77)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(-27,-50,-77)" methodname="TestAddMethodForInteger" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="302669309" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0925633Z" end-time="2021-06-15T11:46:52.0938386Z" duration="0.000537" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(Int32 firstAddendum, Int32 secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 14]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1020" name="TestAddMethodForInteger(1500,-500,1000)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(1500,-500,1000)" methodname="TestAddMethodForInteger" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="1343140744" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0938386Z" end-time="2021-06-15T11:46:52.0945584Z" duration="0.000596" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForInteger(Int32 firstAddendum, Int32 secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 14]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1034" name="TestAddMethodForString" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForString" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2021-06-15T11:46:52.0945584Z" end-time="2021-06-15T11:46:52.0975718Z" duration="0.003379" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1030" name="TestAddMethodForString(&quot;20&quot;,&quot;45&quot;,65)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(&quot;20&quot;,&quot;45&quot;,65)" methodname="TestAddMethodForString" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="565951749" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0945584Z" end-time="2021-06-15T11:46:52.0955908Z" duration="0.001754" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(String firstAddendum, String secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 42]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1031" name="TestAddMethodForString(&quot;-27&quot;,&quot;-50&quot;,-77)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(&quot;-27&quot;,&quot;-50&quot;,-77)" methodname="TestAddMethodForString" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="1805241465" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0955908Z" end-time="2021-06-15T11:46:52.0969551Z" duration="0.000526" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(String firstAddendum, String secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 42]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1032" name="TestAddMethodForString(&quot;1500&quot;,&quot;-500&quot;,1000)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(&quot;1500&quot;,&quot;-500&quot;,1000)" methodname="TestAddMethodForString" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="1315184034" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0969551Z" end-time="2021-06-15T11:46:52.0975500Z" duration="0.000516" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(String firstAddendum, String secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 42]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1033" name="TestAddMethodForString(&quot; 1500&quot;,&quot;-500 &quot;,1000)" fullname="NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(&quot; 1500&quot;,&quot;-500 &quot;,1000)" methodname="TestAddMethodForString" classname="NunitProject.TestClasses.TestAddMethod" runstate="Runnable" seed="519416842" result="Failed" label="Error" start-time="2021-06-15T11:46:52.0975500Z" end-time="2021-06-15T11:46:52.0975718Z" duration="0.000495" asserts="0">
+              <failure>
+                <message><![CDATA[System.InvalidCastException : Specified cast is not valid.]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Add(Object a, Object b)
+   at NunitProject.TestClasses.TestAddMethod.TestAddMethodForString(String firstAddendum, String secondAddendum, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAddMethod.cs:line 42]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="1-1000" name="TestAbsMethod" fullname="NunitProject.TestClasses.TestAbsMethod" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9756578Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.144415" total="12" passed="6" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <properties>
+            <property name="ParallelScope" value="Self" />
+          </properties>
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="ParameterizedMethod" id="1-1010" name="TestAbsMethodForDecimal" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.1155022Z" duration="0.130554" total="2" passed="0" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1008" name="TestAbsMethodForDecimal(-10.321654d,10.321654d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(-10.321654d,10.321654d)" methodname="TestAbsMethodForDecimal" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1069355814" result="Failed" start-time="2021-06-15T11:46:51.9856300Z" end-time="2021-06-15T11:46:52.1155022Z" duration="0.129613" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 10.321654000000001d
+  But was:  10.0d
+]]></message>
+                <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(Decimal input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 31
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 10.321654000000001d
+  But was:  10.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(Decimal input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 31
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="1-1009" name="TestAbsMethodForDecimal(6.5496d,6.5496d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(6.5496d,6.5496d)" methodname="TestAbsMethodForDecimal" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="313020525" result="Failed" start-time="2021-06-15T11:46:52.1155022Z" end-time="2021-06-15T11:46:52.1155022Z" duration="0.000658" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 6.5495999999999999d
+  But was:  7.0d
+]]></message>
+                <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(Decimal input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 31
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 6.5495999999999999d
+  But was:  7.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDecimal(Decimal input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 31
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1007" name="TestAbsMethodForDouble" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2021-06-15T11:46:52.1155022Z" end-time="2021-06-15T11:46:52.1184944Z" duration="0.002834" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1004" name="TestAbsMethodForDouble(-5.57d,5.57d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(-5.57d,5.57d)" methodname="TestAbsMethodForDouble" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1936678513" result="Failed" start-time="2021-06-15T11:46:52.1155022Z" end-time="2021-06-15T11:46:52.1174972Z" duration="0.001354" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 5.5700000000000003d
+  But was:  6.0d
+]]></message>
+                <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 5.5700000000000003d
+  But was:  6.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="1-1005" name="TestAbsMethodForDouble(3.45d,3.45d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(3.45d,3.45d)" methodname="TestAbsMethodForDouble" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1180217265" result="Failed" start-time="2021-06-15T11:46:52.1174972Z" end-time="2021-06-15T11:46:52.1174972Z" duration="0.000777" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 3.4500000000000002d
+  But was:  3.0d
+]]></message>
+                <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 3.4500000000000002d
+  But was:  3.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="1-1006" name="TestAbsMethodForDouble(-45.33d,45.33d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(-45.33d,45.33d)" methodname="TestAbsMethodForDouble" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1049422050" result="Failed" start-time="2021-06-15T11:46:52.1174972Z" end-time="2021-06-15T11:46:52.1184944Z" duration="0.000658" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: 45.329999999999998d
+  But was:  45.0d
+]]></message>
+                <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: 45.329999999999998d
+  But was:  45.0d
+]]></message>
+                  <stack-trace><![CDATA[   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 23
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1003" name="TestAbsMethodForInteger" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForInteger" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" testcasecount="2" result="Passed" start-time="2021-06-15T11:46:52.1184944Z" end-time="2021-06-15T11:46:52.1184944Z" duration="0.000215" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <test-case id="1-1001" name="TestAbsMethodForInteger(-5,5)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForInteger(-5,5)" methodname="TestAbsMethodForInteger" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1523193949" result="Passed" start-time="2021-06-15T11:46:52.1184944Z" end-time="2021-06-15T11:46:52.1184944Z" duration="0.000138" asserts="1" />
+            <test-case id="1-1002" name="TestAbsMethodForInteger(3,3)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForInteger(3,3)" methodname="TestAbsMethodForInteger" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="371629723" result="Passed" start-time="2021-06-15T11:46:52.1184944Z" end-time="2021-06-15T11:46:52.1184944Z" duration="0.000050" asserts="1" />
+          </test-suite>
+          <test-suite type="ParameterizedMethod" id="1-1016" name="TestAbsMethodForString" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2021-06-15T11:46:52.1184944Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.001093" total="5" passed="4" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1-1011" name="TestAbsMethodForString(&quot;-5.57&quot;,5.57d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(&quot;-5.57&quot;,5.57d)" methodname="TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="330713402" result="Failed" label="Error" start-time="2021-06-15T11:46:52.1184944Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.000887" asserts="0">
+              <failure>
+                <message><![CDATA[System.NotFiniteNumberException : Wrong input]]></message>
+                <stack-trace><![CDATA[   at CSharpCalculator.Calculator.Abs(Object a)
+   at NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(String input, Double expectedResult) in D:\ATM_Module_5\NunitProject\TestClasses\TestAbsMethod.cs:line 41]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1-1012" name="TestAbsMethodForString(&quot;3&quot;,3.0d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(&quot;3&quot;,3.0d)" methodname="TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1144841116" result="Passed" start-time="2021-06-15T11:46:52.1195364Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.000064" asserts="1" />
+            <test-case id="1-1013" name="TestAbsMethodForString(&quot; 3&quot;,3.0d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(&quot; 3&quot;,3.0d)" methodname="TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1013433516" result="Passed" start-time="2021-06-15T11:46:52.1195364Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.000033" asserts="1" />
+            <test-case id="1-1014" name="TestAbsMethodForString(&quot;-53&quot;,53.0d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(&quot;-53&quot;,53.0d)" methodname="TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="1718300649" result="Passed" start-time="2021-06-15T11:46:52.1195364Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.000031" asserts="1" />
+            <test-case id="1-1015" name="TestAbsMethodForString(&quot;-534 &quot;,534.0d)" fullname="NunitProject.TestClasses.TestAbsMethod.TestAbsMethodForString(&quot;-534 &quot;,534.0d)" methodname="TestAbsMethodForString" classname="NunitProject.TestClasses.TestAbsMethod" runstate="Runnable" seed="424794186" result="Passed" start-time="2021-06-15T11:46:52.1195364Z" end-time="2021-06-15T11:46:52.1195364Z" duration="0.000031" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

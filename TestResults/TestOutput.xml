@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="49e371ea-5090-465f-9715-f5e0564c3749" name="Gevorg_Safaryan@EPAMYERW00D5 2021-06-16 17:22:49" runUser="MOSCOW\Gevorg_Safaryan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-06-16T17:22:49.7139263+04:00" queuing="2021-06-16T17:22:49.7139273+04:00" start="2021-06-16T17:22:48.7780438+04:00" finish="2021-06-16T17:22:49.8692076+04:00" />
+  <TestSettings name="default" id="5c285e67-96da-430b-8645-394a26669eb3">
+    <Deployment runDeploymentRoot="Gevorg_Safaryan_EPAMYERW00D5_2021-06-16_17_22_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" testId="5e20e96f-83e1-ae1d-b03c-83d880f6af69" testName="TestSubMethodForDecimal" computerName="EPAMYERW00D5" duration="00:00:00.0008285" startTime="2021-06-16T17:22:49.6627470+04:00" endTime="2021-06-16T17:22:49.6727533+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="26d60527-5039-4cfb-8e2d-de330383ca32" parentExecutionId="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" testId="5e20e96f-83e1-ae1d-b03c-83d880f6af69" testName="TestSubMethodForDecimal (5.45659,1.35987,4.09672)" computerName="EPAMYERW00D5" duration="00:00:00.0004794" startTime="2021-06-16T17:22:49.6627470+04:00" endTime="2021-06-16T17:22:49.6727533+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26d60527-5039-4cfb-8e2d-de330383ca32" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestSubMethod.TestSubMethodForDecimal threw exception: &#xD;
+System.ArgumentException: Object of type 'System.Double' cannot be converted to type 'System.Decimal'.</Message>
+              <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)&#xD;
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)&#xD;
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)&#xD;
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)&#xD;
+   at Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.ThreadOperations.ExecuteWithAbortSafety(Action action)&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="ed25382a-4223-4adf-8e14-95122cfac7b7" parentExecutionId="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" testId="5e20e96f-83e1-ae1d-b03c-83d880f6af69" testName="TestSubMethodForDecimal (5.5556698,7.4489567,-1.8932869)" computerName="EPAMYERW00D5" duration="00:00:00.0001958" startTime="2021-06-16T17:22:49.6627470+04:00" endTime="2021-06-16T17:22:49.6727533+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed25382a-4223-4adf-8e14-95122cfac7b7" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestSubMethod.TestSubMethodForDecimal threw exception: &#xD;
+System.ArgumentException: Object of type 'System.Double' cannot be converted to type 'System.Decimal'.</Message>
+              <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)&#xD;
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)&#xD;
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)&#xD;
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)&#xD;
+   at Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.ThreadOperations.ExecuteWithAbortSafety(Action action)&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="886374da-a987-497b-aacd-302ea081325a" testId="b5f7f576-389b-7252-8139-9c707bf1681b" testName="TestMultiplyMethodForInteger" computerName="EPAMYERW00D5" duration="00:00:00.0091389" startTime="2021-06-16T17:22:49.4785734+04:00" endTime="2021-06-16T17:22:49.5303981+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="886374da-a987-497b-aacd-302ea081325a" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="7e9c8c5a-d764-4bb2-9808-4531d4b9050f" parentExecutionId="886374da-a987-497b-aacd-302ea081325a" testId="b5f7f576-389b-7252-8139-9c707bf1681b" testName="TestMultiplyMethodForInteger (3,2,6)" computerName="EPAMYERW00D5" duration="00:00:00.0042778" startTime="2021-06-16T17:22:49.4785734+04:00" endTime="2021-06-16T17:22:49.5303981+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e9c8c5a-d764-4bb2-9808-4531d4b9050f" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="4e1b170b-aee7-4f58-8071-1456cbcb159c" parentExecutionId="886374da-a987-497b-aacd-302ea081325a" testId="b5f7f576-389b-7252-8139-9c707bf1681b" testName="TestMultiplyMethodForInteger (3,0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0000156" startTime="2021-06-16T17:22:49.4785734+04:00" endTime="2021-06-16T17:22:49.5303981+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e1b170b-aee7-4f58-8071-1456cbcb159c" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8d3dddab-fe83-4115-8dad-1ca0a7634f2e" parentExecutionId="886374da-a987-497b-aacd-302ea081325a" testId="b5f7f576-389b-7252-8139-9c707bf1681b" testName="TestMultiplyMethodForInteger (-3,-4,12)" computerName="EPAMYERW00D5" duration="00:00:00.0000042" startTime="2021-06-16T17:22:49.4785734+04:00" endTime="2021-06-16T17:22:49.5303981+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d3dddab-fe83-4115-8dad-1ca0a7634f2e" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="20ffd2c7-ee4c-4cc4-8e3d-0cbf7841510f" parentExecutionId="886374da-a987-497b-aacd-302ea081325a" testId="b5f7f576-389b-7252-8139-9c707bf1681b" testName="TestMultiplyMethodForInteger (-3,4,-12)" computerName="EPAMYERW00D5" duration="00:00:00.0000031" startTime="2021-06-16T17:22:49.4785734+04:00" endTime="2021-06-16T17:22:49.5303981+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20ffd2c7-ee4c-4cc4-8e3d-0cbf7841510f" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="a671100c-e657-4673-93f6-6faade1fa780" testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" testName="TestSinMethodForDouble" computerName="EPAMYERW00D5" duration="00:00:00.0004020" startTime="2021-06-16T17:22:49.6440732+04:00" endTime="2021-06-16T17:22:49.6446263+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a671100c-e657-4673-93f6-6faade1fa780" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="11a6d61b-05da-482c-a217-fbb659ea6ba9" parentExecutionId="a671100c-e657-4673-93f6-6faade1fa780" testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" testName="TestSinMethodForDouble (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0002712" startTime="2021-06-16T17:22:49.6440732+04:00" endTime="2021-06-16T17:22:49.6446263+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11a6d61b-05da-482c-a217-fbb659ea6ba9" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0c0c8c15-ab40-425e-9873-b0873bbaf116" parentExecutionId="a671100c-e657-4673-93f6-6faade1fa780" testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" testName="TestSinMethodForDouble (30,0.5)" computerName="EPAMYERW00D5" duration="00:00:00.0000063" startTime="2021-06-16T17:22:49.6440732+04:00" endTime="2021-06-16T17:22:49.6446263+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0c8c15-ab40-425e-9873-b0873bbaf116" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="12751266-4fef-4467-b951-c3358355a596" parentExecutionId="a671100c-e657-4673-93f6-6faade1fa780" testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" testName="TestSinMethodForDouble (90,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000042" startTime="2021-06-16T17:22:49.6440732+04:00" endTime="2021-06-16T17:22:49.6446263+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12751266-4fef-4467-b951-c3358355a596" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="09ad5008-b1e8-4236-b9ff-7ff90e72393e" parentExecutionId="a671100c-e657-4673-93f6-6faade1fa780" testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" testName="TestSinMethodForDouble (-90,-1)" computerName="EPAMYERW00D5" duration="00:00:00.0000043" startTime="2021-06-16T17:22:49.6440732+04:00" endTime="2021-06-16T17:22:49.6446263+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09ad5008-b1e8-4236-b9ff-7ff90e72393e" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="14824677-13ee-4378-94c2-b5c8120c46f5" testId="00ea7947-1335-5e66-e233-33e0bd888760" testName="TestSinMethodForString" computerName="EPAMYERW00D5" duration="00:00:00.0003928" startTime="2021-06-16T17:22:49.6446578+04:00" endTime="2021-06-16T17:22:49.6451579+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14824677-13ee-4378-94c2-b5c8120c46f5" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="70846557-8769-4071-9c6a-593ba8117755" parentExecutionId="14824677-13ee-4378-94c2-b5c8120c46f5" testId="00ea7947-1335-5e66-e233-33e0bd888760" testName="TestSinMethodForString (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0001875" startTime="2021-06-16T17:22:49.6446578+04:00" endTime="2021-06-16T17:22:49.6451579+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70846557-8769-4071-9c6a-593ba8117755" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="a8176798-2853-4e27-a340-47a44deeb2dc" parentExecutionId="14824677-13ee-4378-94c2-b5c8120c46f5" testId="00ea7947-1335-5e66-e233-33e0bd888760" testName="TestSinMethodForString (0.52,0.5)" computerName="EPAMYERW00D5" duration="00:00:00.0000954" startTime="2021-06-16T17:22:49.6446578+04:00" endTime="2021-06-16T17:22:49.6451579+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8176798-2853-4e27-a340-47a44deeb2dc" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2965427b-74d9-48f8-8e11-77a1b932ae84" parentExecutionId="14824677-13ee-4378-94c2-b5c8120c46f5" testId="00ea7947-1335-5e66-e233-33e0bd888760" testName="TestSinMethodForString ( 1.57,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000069" startTime="2021-06-16T17:22:49.6446578+04:00" endTime="2021-06-16T17:22:49.6451579+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2965427b-74d9-48f8-8e11-77a1b932ae84" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="736b73c3-8837-4046-ae74-c6c82d5286c4" parentExecutionId="14824677-13ee-4378-94c2-b5c8120c46f5" testId="00ea7947-1335-5e66-e233-33e0bd888760" testName="TestSinMethodForString (-1.57 ,-1)" computerName="EPAMYERW00D5" duration="00:00:00.0000041" startTime="2021-06-16T17:22:49.6446578+04:00" endTime="2021-06-16T17:22:49.6451579+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="736b73c3-8837-4046-ae74-c6c82d5286c4" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" testName="TestSubMethodForInteger" computerName="EPAMYERW00D5" duration="00:00:00.0005268" startTime="2021-06-16T17:22:49.6579221+04:00" endTime="2021-06-16T17:22:49.6590055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="f35ca81e-bf40-4bcd-836a-9d3338e2e44d" parentExecutionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" testName="TestSubMethodForInteger (5,1,4)" computerName="EPAMYERW00D5" duration="00:00:00.0004105" startTime="2021-06-16T17:22:49.6579221+04:00" endTime="2021-06-16T17:22:49.6590055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f35ca81e-bf40-4bcd-836a-9d3338e2e44d" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="00e44ff0-e5eb-4e14-b17f-54b957280f38" parentExecutionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" testName="TestSubMethodForInteger (5,7,-2)" computerName="EPAMYERW00D5" duration="00:00:00.0000050" startTime="2021-06-16T17:22:49.6579221+04:00" endTime="2021-06-16T17:22:49.6590055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00e44ff0-e5eb-4e14-b17f-54b957280f38" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3889f540-13e7-4a9b-a24b-fb32be63ea96" parentExecutionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" testName="TestSubMethodForInteger (-5,-1,-4)" computerName="EPAMYERW00D5" duration="00:00:00.0000069" startTime="2021-06-16T17:22:49.6579221+04:00" endTime="2021-06-16T17:22:49.6590055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3889f540-13e7-4a9b-a24b-fb32be63ea96" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="6b47060f-2c8d-4f45-ad0d-af45b5862af4" parentExecutionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" testName="TestSubMethodForInteger (5,-1,6)" computerName="EPAMYERW00D5" duration="00:00:00.0000024" startTime="2021-06-16T17:22:49.6579221+04:00" endTime="2021-06-16T17:22:49.6590055+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b47060f-2c8d-4f45-ad0d-af45b5862af4" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testId="6410f59b-2c88-480f-9b42-37f362f316f6" testName="TestSqrtMethodForString" computerName="EPAMYERW00D5" duration="00:00:00.0002592" startTime="2021-06-16T17:22:49.6538049+04:00" endTime="2021-06-16T17:22:49.6541613+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ac67351-2d9b-483d-885e-381de6f8aa20" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="545b34ad-2dcd-4807-8b2d-bf6ba50c410d" parentExecutionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testId="6410f59b-2c88-480f-9b42-37f362f316f6" testName="TestSqrtMethodForString (16,4)" computerName="EPAMYERW00D5" duration="00:00:00.0001682" startTime="2021-06-16T17:22:49.6538049+04:00" endTime="2021-06-16T17:22:49.6541613+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="545b34ad-2dcd-4807-8b2d-bf6ba50c410d" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c0d1fc6b-050d-4413-bc91-b3b275aea12f" parentExecutionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testId="6410f59b-2c88-480f-9b42-37f362f316f6" testName="TestSqrtMethodForString (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0000112" startTime="2021-06-16T17:22:49.6538049+04:00" endTime="2021-06-16T17:22:49.6541613+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0d1fc6b-050d-4413-bc91-b3b275aea12f" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="fbba970d-e7e6-408a-b6b9-16dc51cef675" parentExecutionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testId="6410f59b-2c88-480f-9b42-37f362f316f6" testName="TestSqrtMethodForString (1,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000031" startTime="2021-06-16T17:22:49.6538049+04:00" endTime="2021-06-16T17:22:49.6541613+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbba970d-e7e6-408a-b6b9-16dc51cef675" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2581dc5b-6771-4b36-b462-31736e119f89" parentExecutionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testId="6410f59b-2c88-480f-9b42-37f362f316f6" testName="TestSqrtMethodForString (-5,NaN)" computerName="EPAMYERW00D5" duration="00:00:00.0000021" startTime="2021-06-16T17:22:49.6538049+04:00" endTime="2021-06-16T17:22:49.6541613+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2581dc5b-6771-4b36-b462-31736e119f89" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble" computerName="EPAMYERW00D5" duration="00:00:00.0014229" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fadb964a-d2d0-4799-a83e-e01092df26c0" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="abbb54ea-ff5e-404e-821f-8f8afff846ac" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (6.25,2.5)" computerName="EPAMYERW00D5" duration="00:00:00.0004722" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="abbb54ea-ff5e-404e-821f-8f8afff846ac" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;2.5&gt;. Actual:&lt;2.449489742783178&gt;. </Message>
+              <StackTrace>   at MSTestProject.TestClases.TestSqrtMethod.TestSqrtMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestSqrtMethod.cs:line 38&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a61d7ea3-fdf3-4416-b015-dd527437f5c3" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0000106" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a61d7ea3-fdf3-4416-b015-dd527437f5c3" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5d0f0af4-45e5-4c8e-a598-3e5121561718" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (1,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000148" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d0f0af4-45e5-4c8e-a598-3e5121561718" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0e38cf70-4029-4bc8-abc6-5e3e561d89cb" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (-5,NaN)" computerName="EPAMYERW00D5" duration="00:00:00.0000025" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e38cf70-4029-4bc8-abc6-5e3e561d89cb" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="aa9af4d9-8bd3-4abc-a482-663ba8d1b3ed" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (NaN,NaN)" computerName="EPAMYERW00D5" duration="00:00:00.0004755" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa9af4d9-8bd3-4abc-a482-663ba8d1b3ed" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestSqrtMethod.TestSqrtMethodForDouble threw exception: &#xD;
+System.OverflowException: Value was either too large or too small for an Int32.</Message>
+              <StackTrace>    at System.Convert.ToInt32(Double value)&#xD;
+   at System.Double.System.IConvertible.ToInt32(IFormatProvider provider)&#xD;
+   at System.Convert.ToInt32(Object value)&#xD;
+   at CSharpCalculator.Calculator.Sqrt(Object a)&#xD;
+   at MSTestProject.TestClases.TestSqrtMethod.TestSqrtMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestSqrtMethod.cs:line 37&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="9e497fc9-87bf-4706-ae7c-85f1c87bf9d7" parentExecutionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testId="02119049-b760-2218-659b-a938313522c5" testName="TestSqrtMethodForDouble (∞,∞)" computerName="EPAMYERW00D5" duration="00:00:00.0003442" startTime="2021-06-16T17:22:49.6493107+04:00" endTime="2021-06-16T17:22:49.6508174+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e497fc9-87bf-4706-ae7c-85f1c87bf9d7" dataRowInfo="6" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestSqrtMethod.TestSqrtMethodForDouble threw exception: &#xD;
+System.OverflowException: Value was either too large or too small for an Int32.</Message>
+              <StackTrace>    at System.Convert.ToInt32(Double value)&#xD;
+   at System.Double.System.IConvertible.ToInt32(IFormatProvider provider)&#xD;
+   at System.Convert.ToInt32(Object value)&#xD;
+   at CSharpCalculator.Calculator.Sqrt(Object a)&#xD;
+   at MSTestProject.TestClases.TestSqrtMethod.TestSqrtMethodForDouble(Double input, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestSqrtMethod.cs:line 37&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="986362d1-e83b-4e69-9417-b874365e5531" testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" testName="TestSqrtMethodForInteger" computerName="EPAMYERW00D5" duration="00:00:00.0003866" startTime="2021-06-16T17:22:49.6485561+04:00" endTime="2021-06-16T17:22:49.6492875+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="986362d1-e83b-4e69-9417-b874365e5531" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="72984cb6-9c24-4a37-99ab-141775312f64" parentExecutionId="986362d1-e83b-4e69-9417-b874365e5531" testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" testName="TestSqrtMethodForInteger (16,4)" computerName="EPAMYERW00D5" duration="00:00:00.0002763" startTime="2021-06-16T17:22:49.6485561+04:00" endTime="2021-06-16T17:22:49.6492875+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72984cb6-9c24-4a37-99ab-141775312f64" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="679dbe2b-b3f6-4a45-b0f5-9b14d16a19ea" parentExecutionId="986362d1-e83b-4e69-9417-b874365e5531" testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" testName="TestSqrtMethodForInteger (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0000089" startTime="2021-06-16T17:22:49.6485561+04:00" endTime="2021-06-16T17:22:49.6492875+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="679dbe2b-b3f6-4a45-b0f5-9b14d16a19ea" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e4f1567a-9046-4a9e-b620-168ed0579dae" parentExecutionId="986362d1-e83b-4e69-9417-b874365e5531" testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" testName="TestSqrtMethodForInteger (1,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000030" startTime="2021-06-16T17:22:49.6485561+04:00" endTime="2021-06-16T17:22:49.6492875+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4f1567a-9046-4a9e-b620-168ed0579dae" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b4b00e40-f251-4d46-97bd-19222e120846" parentExecutionId="986362d1-e83b-4e69-9417-b874365e5531" testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" testName="TestSqrtMethodForInteger (-5,NaN)" computerName="EPAMYERW00D5" duration="00:00:00.0000028" startTime="2021-06-16T17:22:49.6485561+04:00" endTime="2021-06-16T17:22:49.6492875+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4b00e40-f251-4d46-97bd-19222e120846" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" testName="TestSubMethodForString" computerName="EPAMYERW00D5" duration="00:00:00.0006488" startTime="2021-06-16T17:22:49.6727902+04:00" endTime="2021-06-16T17:22:49.6735377+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="6215e009-13c2-4156-9061-2e6db4fa894b" parentExecutionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" testName="TestSubMethodForString (5.45,1.35,4.1)" computerName="EPAMYERW00D5" duration="00:00:00.0002136" startTime="2021-06-16T17:22:49.6727902+04:00" endTime="2021-06-16T17:22:49.6735377+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6215e009-13c2-4156-9061-2e6db4fa894b" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ed2cd9f2-d44e-4c95-9c92-801073c1fc6c" parentExecutionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" testName="TestSubMethodForString (5.5,7.4,-1.9)" computerName="EPAMYERW00D5" duration="00:00:00.0003349" startTime="2021-06-16T17:22:49.6727902+04:00" endTime="2021-06-16T17:22:49.6735377+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed2cd9f2-d44e-4c95-9c92-801073c1fc6c" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;-1.9&gt;. Actual:&lt;-1.9000000000000004&gt;. </Message>
+              <StackTrace>   at MSTestProject.TestClases.TestSubMethod.TestSubMethodForString(String minuend, String subtrahend, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestSubMethod.cs:line 56&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="cf200a20-fe98-4fc9-9e80-2c9137702d41" parentExecutionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" testName="TestSubMethodForString (-5.7,-1.5,-4.2)" computerName="EPAMYERW00D5" duration="00:00:00.0000060" startTime="2021-06-16T17:22:49.6727902+04:00" endTime="2021-06-16T17:22:49.6735377+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf200a20-fe98-4fc9-9e80-2c9137702d41" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8d335590-fd4b-4259-940a-deccc76f0c1d" parentExecutionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" testName="TestSubMethodForString (5.95,-1.05,7)" computerName="EPAMYERW00D5" duration="00:00:00.0000040" startTime="2021-06-16T17:22:49.6727902+04:00" endTime="2021-06-16T17:22:49.6735377+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d335590-fd4b-4259-940a-deccc76f0c1d" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString" computerName="EPAMYERW00D5" duration="00:00:00.0059686" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db248dd6-6129-48d0-ac12-29ee25525b24" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="8b82625e-72f2-4573-b505-334d82503a61" parentExecutionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString (2,2,4)" computerName="EPAMYERW00D5" duration="00:00:00.0006181" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b82625e-72f2-4573-b505-334d82503a61" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForString threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForString(String number, String power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 48&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2415c737-9888-4c18-9bd7-bd22a44dceb5" parentExecutionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString (3,0,1)" computerName="EPAMYERW00D5" duration="00:00:00.0003108" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2415c737-9888-4c18-9bd7-bd22a44dceb5" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForString threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForString(String number, String power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 48&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="29356649-f4fd-41f0-a9d0-8074b274763e" parentExecutionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString (-3,3,-27)" computerName="EPAMYERW00D5" duration="00:00:00.0003084" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29356649-f4fd-41f0-a9d0-8074b274763e" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForString threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForString(String number, String power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 48&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="5a90ff56-8d00-440b-bf05-02c1e0db4fb5" parentExecutionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString (0,100,0)" computerName="EPAMYERW00D5" duration="00:00:00.0003069" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a90ff56-8d00-440b-bf05-02c1e0db4fb5" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForString threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForString(String number, String power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 48&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="f173c7c8-ea29-4479-bdbe-a93baa94fce2" parentExecutionId="db248dd6-6129-48d0-ac12-29ee25525b24" testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" testName="TestPowMethodForString (3,-1,(1 / 3))" computerName="EPAMYERW00D5" duration="00:00:00.0042595" startTime="2021-06-16T17:22:49.6319299+04:00" endTime="2021-06-16T17:22:49.6380658+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f173c7c8-ea29-4479-bdbe-a93baa94fce2" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForString threw exception: &#xD;
+System.ArgumentException: Object of type 'System.String' cannot be converted to type 'System.Double'.</Message>
+              <StackTrace>    at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)&#xD;
+   at System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)&#xD;
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)&#xD;
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)&#xD;
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)&#xD;
+   at Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.ThreadOperations.ExecuteWithAbortSafety(Action action)&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble" computerName="EPAMYERW00D5" duration="00:00:00.0247957" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5868e96a-a065-4421-bb39-678f3cfad3b7" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="90c797de-41f2-4c48-9f8d-a4459cf85440" parentExecutionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble (3.5,2.7,9.450000000000001)" computerName="EPAMYERW00D5" duration="00:00:00.0001155" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90c797de-41f2-4c48-9f8d-a4459cf85440" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="579b7ea8-edbf-4198-8696-3f98fd8b8733" parentExecutionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble (3.99,0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0000190" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="579b7ea8-edbf-4198-8696-3f98fd8b8733" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="221b6208-9eb3-41db-ae99-558abee8ea99" parentExecutionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble (-3.5,-2.7,9.45)" computerName="EPAMYERW00D5" duration="00:00:00.0239578" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="221b6208-9eb3-41db-ae99-558abee8ea99" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;9.45&gt;. Actual:&lt;9.450000000000001&gt;. </Message>
+              <StackTrace>   at MSTestProject.TestClases.TestMultiplyMethod.TestMultiplyMethodForDouble(Double firstMultiplier, Double secondMultiplier, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestMultiplyMethod.cs:line 37&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2c1622d8-6977-4219-8ea2-f6a3e37f8853" parentExecutionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble (-3.5,2.7,9.45)" computerName="EPAMYERW00D5" duration="00:00:00.0003303" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c1622d8-6977-4219-8ea2-f6a3e37f8853" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;9.45&gt;. Actual:&lt;-9.450000000000001&gt;. </Message>
+              <StackTrace>   at MSTestProject.TestClases.TestMultiplyMethod.TestMultiplyMethodForDouble(Double firstMultiplier, Double secondMultiplier, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestMultiplyMethod.cs:line 37&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="2a31a580-3582-4a79-bf52-133938730c96" parentExecutionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" testName="TestMultiplyMethodForDouble (1.7976931348623157E+308,2.7,∞)" computerName="EPAMYERW00D5" duration="00:00:00.0000046" startTime="2021-06-16T17:22:49.5398829+04:00" endTime="2021-06-16T17:22:49.5654281+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a31a580-3582-4a79-bf52-133938730c96" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger" computerName="EPAMYERW00D5" duration="00:00:00.0049952" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="243dd676-a856-4b4b-8060-147e6bf2ed5c" parentExecutionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger (2,2,4)" computerName="EPAMYERW00D5" duration="00:00:00.0037874" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="243dd676-a856-4b4b-8060-147e6bf2ed5c" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger(Int32 number, Int32 power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b99545a5-b0e3-4376-b112-76f5e634bfa4" parentExecutionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger (3,0,1)" computerName="EPAMYERW00D5" duration="00:00:00.0002801" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b99545a5-b0e3-4376-b112-76f5e634bfa4" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger(Int32 number, Int32 power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="ff996a05-d390-466c-b780-c99c5f0b7942" parentExecutionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger (-3,3,-27)" computerName="EPAMYERW00D5" duration="00:00:00.0002256" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff996a05-d390-466c-b780-c99c5f0b7942" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger(Int32 number, Int32 power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6991fc1f-60ec-4604-b3f8-3a389efa7e6f" parentExecutionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger (0,100,0)" computerName="EPAMYERW00D5" duration="00:00:00.0002382" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6991fc1f-60ec-4604-b3f8-3a389efa7e6f" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger(Int32 number, Int32 power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="b5e001b8-7132-4806-ab49-6fd90497f513" parentExecutionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testId="95cc6304-ba30-44ee-3083-ea50dec164f8" testName="TestPowMethodForInteger (3,-1,0)" computerName="EPAMYERW00D5" duration="00:00:00.0003064" startTime="2021-06-16T17:22:49.6196962+04:00" endTime="2021-06-16T17:22:49.6250440+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5e001b8-7132-4806-ab49-6fd90497f513" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForInteger(Int32 number, Int32 power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 25&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testId="5c29e852-3fef-0088-e677-514886a9b6ac" testName="TestSinMethodForInteger" computerName="EPAMYERW00D5" duration="00:00:00.0006738" startTime="2021-06-16T17:22:49.6381180+04:00" endTime="2021-06-16T17:22:49.6392321+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7e07c7c-35e7-400c-8e58-7b257b56cc17" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="5a03709c-7942-4144-8479-cc7f6a9a1f72" parentExecutionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testId="5c29e852-3fef-0088-e677-514886a9b6ac" testName="TestSinMethodForInteger (0,0)" computerName="EPAMYERW00D5" duration="00:00:00.0005312" startTime="2021-06-16T17:22:49.6381180+04:00" endTime="2021-06-16T17:22:49.6392321+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a03709c-7942-4144-8479-cc7f6a9a1f72" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="1cae41a4-d934-4e05-ac6f-7c62d30f5ca7" parentExecutionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testId="5c29e852-3fef-0088-e677-514886a9b6ac" testName="TestSinMethodForInteger (30,0.5)" computerName="EPAMYERW00D5" duration="00:00:00.0000116" startTime="2021-06-16T17:22:49.6381180+04:00" endTime="2021-06-16T17:22:49.6392321+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cae41a4-d934-4e05-ac6f-7c62d30f5ca7" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="bedc8bd6-8f08-4c7f-93c7-fbfdb0ab394d" parentExecutionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testId="5c29e852-3fef-0088-e677-514886a9b6ac" testName="TestSinMethodForInteger (90,1)" computerName="EPAMYERW00D5" duration="00:00:00.0000047" startTime="2021-06-16T17:22:49.6381180+04:00" endTime="2021-06-16T17:22:49.6392321+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bedc8bd6-8f08-4c7f-93c7-fbfdb0ab394d" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="362f96ba-7020-4f06-8003-396d9c2cf665" parentExecutionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testId="5c29e852-3fef-0088-e677-514886a9b6ac" testName="TestSinMethodForInteger (-90,-1)" computerName="EPAMYERW00D5" duration="00:00:00.0000035" startTime="2021-06-16T17:22:49.6381180+04:00" endTime="2021-06-16T17:22:49.6392321+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="362f96ba-7020-4f06-8003-396d9c2cf665" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" testName="TestSubMethodForDouble" computerName="EPAMYERW00D5" duration="00:00:00.0005727" startTime="2021-06-16T17:22:49.6590410+04:00" endTime="2021-06-16T17:22:49.6596971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c94193e-2fb6-4030-925d-e7c6a2364f7d" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="2f729e1b-2454-4ac2-924c-8580f38b6f91" parentExecutionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" testName="TestSubMethodForDouble (5.45,1.35,4.1)" computerName="EPAMYERW00D5" duration="00:00:00.0001364" startTime="2021-06-16T17:22:49.6590410+04:00" endTime="2021-06-16T17:22:49.6596971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f729e1b-2454-4ac2-924c-8580f38b6f91" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="22d2e657-f038-49db-906a-31a11a240eba" parentExecutionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" testName="TestSubMethodForDouble (5.5,7.4,-1.9)" computerName="EPAMYERW00D5" duration="00:00:00.0003430" startTime="2021-06-16T17:22:49.6590410+04:00" endTime="2021-06-16T17:22:49.6596971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d2e657-f038-49db-906a-31a11a240eba" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;-1.9&gt;. Actual:&lt;-1.9000000000000004&gt;. </Message>
+              <StackTrace>   at MSTestProject.TestClases.TestSubMethod.TestSubMethodForDouble(Double minuend, Double subtrahend, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestSubMethod.cs:line 36&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6b5f1c42-a16f-499e-9ce6-8ba463065fd0" parentExecutionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" testName="TestSubMethodForDouble (-5.7,-1.5,-4.2)" computerName="EPAMYERW00D5" duration="00:00:00.0000044" startTime="2021-06-16T17:22:49.6590410+04:00" endTime="2021-06-16T17:22:49.6596971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b5f1c42-a16f-499e-9ce6-8ba463065fd0" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7589fa95-2b43-4a26-868c-b3498dd5ce67" parentExecutionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" testName="TestSubMethodForDouble (5.95,-1.05,7)" computerName="EPAMYERW00D5" duration="00:00:00.0000033" startTime="2021-06-16T17:22:49.6590410+04:00" endTime="2021-06-16T17:22:49.6596971+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7589fa95-2b43-4a26-868c-b3498dd5ce67" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" testName="TestPowMethodForDouble" computerName="EPAMYERW00D5" duration="00:00:00.0013835" startTime="2021-06-16T17:22:49.6250808+04:00" endTime="2021-06-16T17:22:49.6265757+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="e632be13-734e-4942-9986-85576cee1a9b" parentExecutionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" testName="TestPowMethodForDouble (2.5,2,6.25)" computerName="EPAMYERW00D5" duration="00:00:00.0004460" startTime="2021-06-16T17:22:49.6250808+04:00" endTime="2021-06-16T17:22:49.6265757+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e632be13-734e-4942-9986-85576cee1a9b" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble(Double number, Double power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 36&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="fe5728da-2dd8-48b6-8870-541b0d7fd1af" parentExecutionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" testName="TestPowMethodForDouble (-2.5,2,6.25)" computerName="EPAMYERW00D5" duration="00:00:00.0002196" startTime="2021-06-16T17:22:49.6250808+04:00" endTime="2021-06-16T17:22:49.6265757+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe5728da-2dd8-48b6-8870-541b0d7fd1af" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble(Double number, Double power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 36&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="6983cdeb-ac39-4c9c-a00a-12ba1488f838" parentExecutionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" testName="TestPowMethodForDouble (3.33,0,1)" computerName="EPAMYERW00D5" duration="00:00:00.0002969" startTime="2021-06-16T17:22:49.6250808+04:00" endTime="2021-06-16T17:22:49.6265757+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6983cdeb-ac39-4c9c-a00a-12ba1488f838" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble(Double number, Double power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 36&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="eee585b1-36ba-4044-be6b-7f1adcbe8ae8" parentExecutionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" testName="TestPowMethodForDouble (10.5,-1,0.09523809523809523)" computerName="EPAMYERW00D5" duration="00:00:00.0003090" startTime="2021-06-16T17:22:49.6250808+04:00" endTime="2021-06-16T17:22:49.6265757+04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eee585b1-36ba-4044-be6b-7f1adcbe8ae8" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+              <StackTrace>    at CSharpCalculator.Calculator.Pow(Object a, Object b)&#xD;
+   at MSTestProject.TestClases.TestPowMethod.TestPowMethodForDouble(Double number, Double power, Double expectedResult) in D:\ATM_Module_5\MSTestProject\TestClases\TestPowMethod.cs:line 36&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestSubMethodForInteger" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="235fcd2d-0fb2-0b80-9287-d84e59d0aea7">
+      <Execution id="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSubMethod" name="TestSubMethodForInteger" />
+    </UnitTest>
+    <UnitTest name="TestMultiplyMethodForDouble" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76">
+      <Execution id="5868e96a-a065-4421-bb39-678f3cfad3b7" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestMultiplyMethod" name="TestMultiplyMethodForDouble" />
+    </UnitTest>
+    <UnitTest name="TestPowMethodForString" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="c3c60ca2-3649-6d4d-56ed-82c10f313e10">
+      <Execution id="db248dd6-6129-48d0-ac12-29ee25525b24" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestPowMethod" name="TestPowMethodForString" />
+    </UnitTest>
+    <UnitTest name="TestSubMethodForDecimal" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="5e20e96f-83e1-ae1d-b03c-83d880f6af69">
+      <Execution id="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSubMethod" name="TestSubMethodForDecimal" />
+    </UnitTest>
+    <UnitTest name="TestSubMethodForDouble" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb">
+      <Execution id="5c94193e-2fb6-4030-925d-e7c6a2364f7d" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSubMethod" name="TestSubMethodForDouble" />
+    </UnitTest>
+    <UnitTest name="TestSqrtMethodForInteger" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee">
+      <Execution id="986362d1-e83b-4e69-9417-b874365e5531" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSqrtMethod" name="TestSqrtMethodForInteger" />
+    </UnitTest>
+    <UnitTest name="TestPowMethodForInteger" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="95cc6304-ba30-44ee-3083-ea50dec164f8">
+      <Execution id="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestPowMethod" name="TestPowMethodForInteger" />
+    </UnitTest>
+    <UnitTest name="TestMultiplyMethodForInteger" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="b5f7f576-389b-7252-8139-9c707bf1681b">
+      <Execution id="886374da-a987-497b-aacd-302ea081325a" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestMultiplyMethod" name="TestMultiplyMethodForInteger" />
+    </UnitTest>
+    <UnitTest name="TestSinMethodForInteger" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="5c29e852-3fef-0088-e677-514886a9b6ac">
+      <Execution id="b7e07c7c-35e7-400c-8e58-7b257b56cc17" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSinMethod" name="TestSinMethodForInteger" />
+    </UnitTest>
+    <UnitTest name="TestSqrtMethodForString" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="6410f59b-2c88-480f-9b42-37f362f316f6">
+      <Execution id="3ac67351-2d9b-483d-885e-381de6f8aa20" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSqrtMethod" name="TestSqrtMethodForString" />
+    </UnitTest>
+    <UnitTest name="TestSinMethodForDouble" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="2aa04806-94e0-f37f-3852-ca708c5d2f0f">
+      <Execution id="a671100c-e657-4673-93f6-6faade1fa780" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSinMethod" name="TestSinMethodForDouble" />
+    </UnitTest>
+    <UnitTest name="TestPowMethodForDouble" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="05e8c796-ee2d-5236-e3d3-c8e5a7480812">
+      <Execution id="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestPowMethod" name="TestPowMethodForDouble" />
+    </UnitTest>
+    <UnitTest name="TestSqrtMethodForDouble" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="02119049-b760-2218-659b-a938313522c5">
+      <Execution id="fadb964a-d2d0-4799-a83e-e01092df26c0" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSqrtMethod" name="TestSqrtMethodForDouble" />
+    </UnitTest>
+    <UnitTest name="TestSubMethodForString" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="975aa404-ed5c-20e0-09b8-f7a70e6bcaff">
+      <Execution id="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSubMethod" name="TestSubMethodForString" />
+    </UnitTest>
+    <UnitTest name="TestSinMethodForString" storage="d:\atm_module_5\mstestproject\bin\debug\netcoreapp3.1\mstestproject.dll" id="00ea7947-1335-5e66-e233-33e0bd888760">
+      <Execution id="14824677-13ee-4378-94c2-b5c8120c46f5" />
+      <TestMethod codeBase="D:\ATM_Module_5\MSTestProject\bin\Debug\netcoreapp3.1\MSTestProject.dll" adapterTypeName="executor://mstestadapter/v2" className="MSTestProject.TestClases.TestSinMethod" name="TestSinMethodForString" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5e20e96f-83e1-ae1d-b03c-83d880f6af69" executionId="359f963a-a9d4-4aee-8b8d-4eeda30bae3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5f7f576-389b-7252-8139-9c707bf1681b" executionId="886374da-a987-497b-aacd-302ea081325a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aa04806-94e0-f37f-3852-ca708c5d2f0f" executionId="a671100c-e657-4673-93f6-6faade1fa780" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00ea7947-1335-5e66-e233-33e0bd888760" executionId="14824677-13ee-4378-94c2-b5c8120c46f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="235fcd2d-0fb2-0b80-9287-d84e59d0aea7" executionId="8c4556a3-25e3-495d-8b81-e935c6a2d7f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6410f59b-2c88-480f-9b42-37f362f316f6" executionId="3ac67351-2d9b-483d-885e-381de6f8aa20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02119049-b760-2218-659b-a938313522c5" executionId="fadb964a-d2d0-4799-a83e-e01092df26c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d2c04ff-e8a4-45b8-4abd-4af3518ee4ee" executionId="986362d1-e83b-4e69-9417-b874365e5531" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="975aa404-ed5c-20e0-09b8-f7a70e6bcaff" executionId="c1e9adcf-353b-43e9-bf98-3a216b2dc01a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3c60ca2-3649-6d4d-56ed-82c10f313e10" executionId="db248dd6-6129-48d0-ac12-29ee25525b24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07720f6d-ad04-fd1c-2db1-c3b8ddb93d76" executionId="5868e96a-a065-4421-bb39-678f3cfad3b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95cc6304-ba30-44ee-3083-ea50dec164f8" executionId="979faed5-ce21-42d8-ab8d-ae0ad3cf08bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c29e852-3fef-0088-e677-514886a9b6ac" executionId="b7e07c7c-35e7-400c-8e58-7b257b56cc17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7ff2dd1-ff38-bc51-853f-4fd98cf91bcb" executionId="5c94193e-2fb6-4030-925d-e7c6a2364f7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05e8c796-ee2d-5236-e3d3-c8e5a7480812" executionId="a3ea5192-5db9-44d1-ac22-bdadeb8b0270" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="78" executed="78" passed="47" failed="31" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

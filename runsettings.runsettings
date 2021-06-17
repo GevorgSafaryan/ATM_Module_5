@@ -1,0 +1,9 @@
+<RunConfiguration>
+    <MaxCpuCount>3/MaxCpuCount>
+    <ResultsDirectory>.\TestResults</ResultsDirectory>
+    <TargetPlatform>x86</TargetPlatform>
+    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+    <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+    <TestSessionTimeout>10000</TestSessionTimeout>
+    <TreatNoTestsAsError>true</TreatNoTestsAsError>
+</RunConfiguration>
